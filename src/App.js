@@ -16,7 +16,7 @@ const App = () => {
 
 
   const startTimer = () => {
-    setTimer(setInterval(async () => {
+    setTimer(setInterval(() => {
       setTime(prevValue => prevValue + 1)
     }, 1))
   }
