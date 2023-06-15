@@ -1,0 +1,11 @@
+@import './settings.scss';
+
+body {
+  background-color: $color-dark;
+  color: $color-light;
+  font-family: $font-text;
+
+  .App {
+    text-align: center;
+  }
+}
